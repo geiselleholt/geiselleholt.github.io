@@ -1,0 +1,35 @@
+a {
+    color: blue;
+}
+
+a:hover {
+    color: white;
+}
+
+body {
+    font-family: Arial;
+}
+
+footer {
+    border:2pt black;
+    background-color:burlywood;
+}
+
+footer h2 {
+    font-size: medium;
+}
+
+header {
+    border:2pt black;
+    background-color:cornsilk;
+    color: chocolate;
+    text-align: center;
+}
+
+main {
+    background-color:blanchedalmond;
+}
+
+ul {
+    list-style: none;
+}

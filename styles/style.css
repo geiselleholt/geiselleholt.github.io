@@ -7,13 +7,8 @@ a:hover {
 }
 
 body {
+    background-color: black;
     font-family:monospace;
-    border-style:inset;
-    border-color: brown;
-}
-
-footer {
-    background-color:burlywood;
 }
 
 footer h2 {
@@ -24,16 +19,23 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color:burlywood;
+    border-radius: 50px
 }
 
 header {
     background-color:cornsilk;
     color: chocolate;
     text-align: center;
+    border-radius: 50px;
 }
 
 main {
     background-color:blanchedalmond;
+    border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 ul {
@@ -44,4 +46,7 @@ main p {
     font-weight: bolder;
     color: darkred;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
